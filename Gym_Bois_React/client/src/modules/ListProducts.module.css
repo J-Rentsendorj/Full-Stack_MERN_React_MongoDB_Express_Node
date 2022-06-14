@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+.body_title{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+body {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.logo{
+    height: 60px;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+.logo{
+    cursor: pointer;
+}
+.nav_area{
+    list-style: none;
+}
+.nav_area li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav_area li a{
+    transition: .3s;
+    color: black;
+}
+
+.nav_area li a:hover{
+    color: #d22938
+}
+.btn_area {
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: black;
+    text-transform: uppercase;
+}
+.search_bar{
+    font-family: poppins;
+    border: 2px solid black;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+}
+.search_bar input, button{
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: black;
+    text-transform: uppercase;
+}
+button{
+    border: 0px;
+} 
+.search_bar input{
+    opacity: .8;
+    border: 2px solid black;
+}
+.browse{
+    display: flex;
+    justify-content: center;
+}
+#main_content{
+    margin: 100px 100px;
+    background: rgba(128,128,128,0.5);
+    height: 70%;
+    width: 70%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 13px;
+    margin-top: 0px;
+    
+}
+.item_list{ 
+    height: 20%;
+    width: 100%; 
+    border: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    padding: 40px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.item_list > p{
+    word-wrap: normal;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 22px;
+}
+.no_border{
+    border-bottom: 0px;
+}
+.item_list > input{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}

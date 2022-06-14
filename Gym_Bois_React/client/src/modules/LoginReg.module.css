@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 120vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 25px;
+}
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register{
+    margin-top: 100px;
+}
+
+.firstName{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.password{
+    margin-bottom: 20px;
+}
+.confirmPassword{
+    margin-bottom: 20px;
+}

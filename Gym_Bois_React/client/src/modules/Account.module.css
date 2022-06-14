@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.bio{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 300px; 
+    margin-right: 300px;
+}
+.soon{
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
