@@ -4,4 +4,5 @@ Built the app end-to-end and implemented google API for accurate geolocation to 
 Designed and scaled the front end for smooth user experience.
 Optimized the login/ registration performance with authentication checks to ensure user login information security.
 A working progress of an e-commerce platform for the best discounted gym related gear.
+
 Video Demo: https://youtu.be/v4BfFERu4Yg
