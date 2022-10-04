@@ -10,3 +10,4 @@ Optimized the login/ registration performance with authentication checks to ensu
 A working progress of an e-commerce platform for the best discounted gym related gear.
 
 Video Demo: https://youtu.be/v4BfFERu4Yg
+![gymbois_gif](https://user-images.githubusercontent.com/99370192/193865840-10cf2368-939d-45d9-87e3-ba6eef28c559.gif)
