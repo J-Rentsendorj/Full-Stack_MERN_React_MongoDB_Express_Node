@@ -1,5 +1,5 @@
 Full Stack MERN. 
-Technologies: MongoDB, Express, React, Node and JWT Authentication. 
+Technologies: MongoDB, Express.js, React.js, Node.js and JWT Authentication. 
 
 Built the app end-to-end and implemented google API for accurate geolocation to enhance user engagement and enable finding gym related gear from top brands. 
 
